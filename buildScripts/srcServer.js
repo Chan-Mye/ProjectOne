@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var open = require('open');
 
-var port = 8999;
+var port = 3500;
 var app = express();
 
 app.get('/', function (req, res) {
